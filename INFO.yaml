@@ -1,0 +1,85 @@
+---
+project: ".github"
+project_creation_date: "2024-03-07"
+lifecycle_state: "Incubation"
+project_category: ""
+project_lead: &fdio_releng_ptl
+  name: "Vanessa Valderrama"
+  email: "vvalderrama@linuxfoundation.org"
+  id: "valderrv"
+  company: "The Linux Foundation"
+  timezone: "America/Chicago"
+primary_contact: *fdio_releng_ptl
+issue_tracking:
+  type: "jira"
+  url: "https://jira.fd.io"
+  key: "CIMANAGE"
+mailing_list:
+  type: "groups.io"
+  url: "lists.fd.io"
+  tag: "<[sub-project_name]>"
+realtime_discussion: ""
+meetings:
+  - type: "zoom"
+    agenda: "n/a"
+    url: "n/a"
+    server: "n/a"
+    channel: "n/a"
+    repeats: "n/a"
+    time: "n/a"
+repositories:
+  - .github
+committers:
+  - <<: *fdio_releng_ptl
+  - name: "Andrew Grimberg"
+    email: "agrimberg@linuxfoundation.org"
+    company: "The Linux Foundation"
+    id: "agrimberg"
+    timezone: "America/Los_Angeles"
+  - name: "Anil Anil Belur"
+    email: "abelur@linuxfoundation.org"
+    company: "The Linux Foundation"
+    id: "askb"
+    timezone: "Unknown/Unknown"
+  - name: "Eric Ball"
+    email: "eball@linuxfoundation.org"
+    company: "The Linux Foundation"
+    id: "eball"
+    timezone: "America/Los_Angeles"
+  - name: "Jessica Wagantall"
+    email: "jwagantall@linuxfoundation.org"
+    id: "jwagantall"
+    company: "The Linux Foundation"
+    timezone: "America/Los_Angeles"
+  - name: "Kevin Sandi"
+    email: "ksandi@contractor.linuxfoundation.org"
+    company: "The Linux Foundation"
+    id: "kevin.sandi"
+    timezone: "America/Costa_Rica"
+  - name: "Matt Watkins"
+    email: "mwatkins@linuxfoundation.org"
+    company: "The Linux Foundation"
+    id: "modeSevenindustrialsolutions"
+    timezone: "Europe/London"
+  - name: 'Dave Wallace'
+    company: 'cisco'
+    email: 'dwallacelf@gmail.com'
+    id: 'dwallacelf'
+    timezone: 'America/New_York'
+  - name: 'Ed Warnicke'
+    company: 'cisco'
+    email: 'hagbard@gmail.com'
+    id: 'hagbard'
+    timezone: 'America/Chicago'
+  - name: 'Peter Mikus'
+    company: 'cisco'
+    email: 'pmikus@cisco.com'
+    id: 'pmikus'
+    timezone: 'Europe/Bratislava'
+  - name: 'Vratko Polak'
+    company: 'cisco'
+    email: 'vrpolak@cisco.com'
+    id: 'vrpolak'
+    timezone: 'Europe/Bratislava'
+tsc:
+  approval: "https://lists.fd.io/g/tsc"
